@@ -1,9 +1,9 @@
-# DBHero [![Build Status](https://travis-ci.org/catarse/dbhero.svg?branch=master)](https://travis-ci.org/catarse/dbhero) [![Code Climate](https://codeclimate.com/github/catarse/dbhero/badges/gpa.svg)](https://codeclimate.com/github/catarse/dbhero) 
+# DBHero [![Build Status](https://travis-ci.org/catarse/dbhero.svg?branch=master)](https://travis-ci.org/catarse/dbhero) [![Code Climate](https://codeclimate.com/github/catarse/dbhero/badges/gpa.svg)](https://codeclimate.com/github/catarse/dbhero)
 
 DBHero is a simple and elegant web interface to extract data clips from your app database. just plug and play ;)
 
 tested stack:
-- PostgresSQL
+- PostgresSQL and MySQL
 - Ruby 2+
 - Rails 4.1+
 
@@ -13,7 +13,7 @@ tested stack:
 ## installation
 
 
-include in your Gemfile: 
+include in your Gemfile:
 
 ```ruby
 gem 'dbhero'
@@ -30,7 +30,7 @@ and add on your routes file:
 ```ruby
  mount Dbhero::Engine => "/dbhero", as: :dbhero
 ```
-run server and open ```http://localhost:3000/dbhero``` 
+run server and open ```http://localhost:3000/dbhero```
 
 
 ## Configurations
